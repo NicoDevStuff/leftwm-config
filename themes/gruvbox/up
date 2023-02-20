@@ -8,7 +8,9 @@ fi
 ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
 xbindkeys &
-picom &
+picom --config ~/.config/leftwm/themes/gruvbox/picom.conf &
+conky -c ~/.config/leftwm/themes/gruvbox/conky.conf &
+~/.screenlayout/main.sh &
 nm-applet &
 volumeicon &
 pipewire & 
@@ -17,4 +19,3 @@ wireplumber &
 polybar -c ~/.config/leftwm/themes/gruvbox/config_polybar.ini &
 leftwm-command "LoadTheme $SCRIPTPATH/theme.ron"
 nitrogen --restore &  
-xrandr --output DP-2  --primary
