@@ -7,7 +7,7 @@ if [ -f "/tmp/leftwm-theme-down" ]; then
 fi
 ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
-xbindkeys &
+xbindkeys -f ~/.config/leftwm/themes/gruvbox/.xbindkeysrc &
 picom --config ~/.config/leftwm/themes/gruvbox/picom.conf &
 conky -c ~/.config/leftwm/themes/gruvbox/conky.conf &
 ~/.screenlayout/main.sh &
