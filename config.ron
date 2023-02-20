@@ -98,7 +98,7 @@
         
         // My custom keybinds
         (command: Execute, value: "kitty", modifier: ["modkey"], key: "Return"),
-        (command: Execute, value: "rofi -show drun", modifier: ["modkey", "Shift"], key: "Return"),
+        (command: Execute, value: "rofi -config ~/.config/leftwm/themes/gruvbox/config_rofi.rasi -show drun", modifier: ["modkey", "Shift"], key: "Return"),
         (command: Execute, value: "firefox", modifier: ["modkey"], key: "b"),
         (command: Execute, value: "thunderbird", modifier: ["modkey"], key: "e"),
         (command: Execute, value: "pcmanfm", modifier: ["modkey"], key: "f"),
