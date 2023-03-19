@@ -106,7 +106,8 @@
         (command: Execute, value: "thunderbird", modifier: ["modkey"], key: "e"),
         (command: Execute, value: "pcmanfm", modifier: ["modkey"], key: "f"),
         (command: CloseWindow, value: "", modifier: ["modkey"], key: "q"),
-         
+            
+
     ],
     state_path: None,
 )
