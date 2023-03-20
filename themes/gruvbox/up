@@ -16,7 +16,7 @@ volumeicon &
 easyeffects &
 xclip &
 ~/.config/polybar/launch_polybar.sh &
-conky --config ~/.config/conky/conky.conf & 
+conky --config ~/.config/conky/leftwm/conky.conf & 
 
 leftwm-command "LoadTheme $SCRIPTPATH/theme.ron"
 nitrogen --restore &  
